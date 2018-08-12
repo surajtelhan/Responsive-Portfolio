@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Suraj Telhan</title>
+</head>
+<body>
+<div class="wrapper">
+    
+    <header>
+        <div class="nav-bar" id="my-nav-bar">
+        <a href="#" class="my-name">Suraj Telhan</a>
+        <div class="nav-links">
+        <a href="index.html" class="nav active">About</a>
+        <a href="portfolio.html" class="nav nav-portfolio">Portfolio</a>
+        <a href="contact.html" class="nav">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars fa-3x"></i>
+        </a>
+        </div>
+    </header>
+
+    <div id="main-body">
+        <h1 class="page-title">About Me</h1>
+        <div class="break"></div>
+        <img id="bio-image" src="assets/images/SurajPic.JPG" alt="Suraj Telhan">
+        <p id="bio">
+			Hello, my name is Suraj Telhan, but people call me Sunshine!
+			I want to learn web development so that I can build my skills in order to be able to live/work in NYC.
+			My hobbies include photography, learning about minimalism, and playing devil's advocate.
+        </p>
+    </div>
+</div>
+    
+<footer>
+    <p class="copyright">Copyright &copy;</p> 
+</footer>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("my-nav-bar");
+    if (x.className === "nav-bar") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav-bar";
+    }
+}
+</script>
+
+</body>
+</html>
